@@ -1,0 +1,32 @@
+#worldMap {
+    width: 100%;
+}
+
+/*flags's data*/
+/*.flags {
+    position: relative;
+    width: 3%;
+    opacity: 0.75;
+}
+.flags:hover {
+    opacity: 1;
+}
+.flags:visited {
+    opacity: 0.5;   
+}
+
+#ru {
+    left: 68.5%;
+}
+#us {
+    left: 15%;
+}
+#uk {
+    left: 36%
+}
+#br {
+    left: 26%;
+}
+#il {
+
+}*/
