@@ -116,7 +116,7 @@
 {
    opacity: 1;
    color: #2d3142;
-   fill:#4f5d75;
+   fill:#ffff;
    stroke:#2d3142;
    stroke-width:0.5;
    stroke-miterlimit:1;
