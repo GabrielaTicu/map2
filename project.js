@@ -1,6 +1,9 @@
 //getting the map's height
 function loadMarkers() {
-    setTimeout(function () { var h = Number(document.getElementById("worldMap").style.height); console.log(h); }, 5000)
+    setTimeout(function () { 
+        var h = Number(document.getElementById("worldMap").style.height); 
+        console.log(h); 
+    }, 5000)
 }
 
 /*-----------------------*/
