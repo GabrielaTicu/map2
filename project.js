@@ -1,58 +1,61 @@
-//getting the map's height
 function loadMarkers() {
-    setTimeout(function () { 
-        var h = Number(document.getElementById("worldMap").style.height); 
-        console.log(h); 
-    }, 5000)
+//getting the map's height
+var h = Number(document.getElementById("worldMap").getBoundingClientRect().height);
+var w = Number(document.getElementById("worldMap").getBoundingClientRect().width);
 }
-
 /*-----------------------*/
-/* var h = document.getElementById("worldMap").style.height;
-    console.log(document.getElementById("worldMap"));
-    console.log(h);
-
-
+/*
 //set position for ru marker
 var ruTop = "";
+var ruLeft = "";
 var ruMarker = document.getElementById("ruMarker");
-ruTop = -2.35*h;
+ruTop = -0.96*h;
+ruLeft = 0.67*w;
 ruMarker.style.top = ruTop + "px";
-ruMarker.style.left = "67%";
+ruMarker.style.left = ruLeft + "px";
 
 //set position for us marker
 var usTop = "";
+var usLeft = "";
 var usMarker = document.getElementById("usMarker");
-usTop = -1.72*h;
+usTop = -0.79*h;
+usLeft = 0.18*w;
 usMarker.style.top = usTop + "px";
-usMarker.style.left = "17%";
+usMarker.style.left = usLeft + "px";
 
 //set position for uk marker
 var ukTop = "";
+var ukLeft = "";
 var ukMarker = document.getElementById("ukMarker");
-ukTop = -1.875*h;
+ukTop = -0.87*h;
+ukLeft = 0.41*w;
 ukMarker.style.top = ukTop + "px";
-ukMarker.style.left = "40.7%";
+ukMarker.style.left = ukLeft + "px";
 
 //set position for br marker
 var brTop = "";
+var brLeft = "";
 var brMarker = document.getElementById("brMarker");
-brTop = -0.93*h;
+brTop = -0.44*h;
+brLeft = 0.258*w;
 brMarker.style.top = brTop + "px";
-brMarker.style.left = "25%";
+brMarker.style.left = brLeft + "px";
 
 //set position for il marker
 var ilTop = "";
+var ilLeft = "";
 var ilMarker = document.getElementById("ilMarker");
-ilTop = -1.53*h;
+ilTop = -0.7*h;
+ilLeft = 0.463*w;
 ilMarker.style.top = ilTop + "px";
-ilMarker.style.left = "45.1%";
+ilMarker.style.left = ilLeft + "px";
 */
 /*-----------------------*/
 /*
 //set position for ru title
 var topru = "";
 var rutxt = document.getElementById("rutxt");
-topru = -2.4*h;
+topru = -0.5*h;
 rutxt.style.top = topru + "px";
 rutxt.style.left = "65.8%";
 //console.log(topru);
@@ -60,28 +63,28 @@ rutxt.style.left = "65.8%";
 //set position for us title
 var topus = "";
 var ustxt = document.getElementById("ustxt");
-topus = -1.95*h;
+topus = -0.9*h;
 ustxt.style.top = topus + "px";
 ustxt.style.left = "16.7%";
 
 //set position for uk title
 var topuk = "";
 var uktxt = document.getElementById("uktxt");
-topuk = -2.3*h;
+topuk = -1.05*h;
 uktxt.style.top = topuk + "px";
 uktxt.style.left = "42%";
 
 //set position for br title
 var topbr = "";
 var brtxt = document.getElementById("brtxt");
-topbr = -1.5*h;
+topbr = -0.705*h;
 brtxt.style.top = topbr + "px";
 brtxt.style.left = "31.7%";
 
 //set position for il title
 var topil = "";
 var iltxt = document.getElementById("iltxt");
-topil = -2.3*h;
+topil = -1.05*h;
 iltxt.style.top = topil + "px";
 iltxt.style.left = "54.7%";
 */
