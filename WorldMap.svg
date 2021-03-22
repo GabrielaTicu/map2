@@ -177,6 +177,10 @@
 #rutext, #ustext, #uktext, #brtext, #iltext{
   fill: black;
 }
+
+#ruMarker, #usMarker, #ukMarker, #brMarker, #ilMarker {
+  opacity: 0.9;
+}
   </style>
 
 
