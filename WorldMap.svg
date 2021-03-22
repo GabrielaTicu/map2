@@ -170,21 +170,13 @@
   opacity: 0.8;
 }
 
-#rutext, #ustext, #uktext, #brtext, #iltext{
-  opacity: 0.9;
-}
-
 .ru:hover, .us:hover, .gb:hover, .br:hover, .il:hover{
-  opacity: 1;
-}
-
-.ru:visited {
-  fill: #ea7e5d;
   opacity: 1;
 }
 
 #rutext, #ustext, #uktext, #brtext, #iltext{
   fill: black;
+  opacity: 0.9;
 }
 
 #ruMarker, #usMarker, #ukMarker, #brMarker, #ilMarker {
